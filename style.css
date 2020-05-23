@@ -1,0 +1,111 @@
+/* Используйте разметку и эти стили для практики рассматриваемых свойств */
+
+body {
+  color: #252424;
+  background-color: rgb(224, 232, 235);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 10px;
+  /* добален для меня для наглядности  */
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 .delivery {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.item {
+  margin: 0;
+}
+img {
+  display: block;
+}
+
+.director-name {
+  margin: 0;
+}
+
+.link {
+  font-weight: 700;
+  text-decoration: none;
+  display: block;
+  color: #141313;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  /* display: inline-flex; */
+  display: list-item;
+  width: 700px;
+  padding: 10px;
+  background-color: #b2d2e0;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+.container:nth-child(2n + 1) {
+  background-color: #96afb4;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.container h1 {
+  margin-bottom: 3px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+.element {
+  width: 150px;
+  height: 150px;
+
+  font-size: 24px;
+  text-align: center;
+  line-height: 150px;
+}
+
+.description {
+  margin-right: 50px;
+}
+.director {
+  margin-right: 50px;
+}
+
+.mp {
+  margin-left: auto;
+  /* width: 250px; */
+  /* background-color: white; */
+}
+
+.pos {
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  color: #252424;
+}
+
+.logo-mp {
+  border-radius: 5px;
+}
